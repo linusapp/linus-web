@@ -14,6 +14,7 @@ get "/" do
     }
   ]
   @pet = 'Linus'
+  @foo = :bar
   slim :index
   # slim :index, :locals => { :pets => @pets }
 end
