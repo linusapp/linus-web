@@ -2,6 +2,7 @@
 
 require 'sinatra'
 require 'slim'
+require 'faker'
 
 set :slim, :pretty => true
 
