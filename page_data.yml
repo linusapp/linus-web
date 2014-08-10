@@ -1,0 +1,188 @@
+---
+:session:
+  :logged_in: true
+  :current_ip: 212.89.96.170
+  :current_user:
+    :name: Rosalee Botsford IV
+    :email: zane@walker.info
+    :username: akeem
+    :phone: 509.375.1273 x2269
+    :avatar: "/images/5.jpg"
+    :avatar_thumb: "/images/thumbs/5.jpg"
+:pets:
+- :pet_id: 
+  :name: Johnson
+  :age: &1 !ruby/range
+    begin: 1
+    end: 10
+    excl: false
+  :neutered: true
+  :chipped: true
+  :breed: Muller, Little and Ruecker
+- :pet_id: 
+  :name: Shanon
+  :age: *1
+  :neutered: true
+  :chipped: true
+  :breed: Klein Inc
+- :pet_id: 
+  :name: Fermin
+  :age: *1
+  :neutered: true
+  :chipped: false
+  :breed: Robel LLC
+- :pet_id: 
+  :name: Sid
+  :age: *1
+  :neutered: false
+  :chipped: true
+  :breed: Streich, Weber and Powlowski
+- :pet_id: 
+  :name: Ollie
+  :age: *1
+  :neutered: true
+  :chipped: true
+  :breed: Braun, Quitzon and Gerhold
+- :pet_id: 
+  :name: Stacey
+  :age: *1
+  :neutered: false
+  :chipped: false
+  :breed: Kuhn Inc
+- :pet_id: 
+  :name: Adella
+  :age: *1
+  :neutered: true
+  :chipped: true
+  :breed: Tillman-McCullough
+- :pet_id: 
+  :name: Troy
+  :age: *1
+  :neutered: true
+  :chipped: false
+  :breed: Spencer Inc
+- :pet_id: 
+  :name: Felipa
+  :age: *1
+  :neutered: false
+  :chipped: false
+  :breed: Leannon-Farrell
+- :pet_id: 
+  :name: Murphy
+  :age: *1
+  :neutered: false
+  :chipped: true
+  :breed: Auer, Schimmel and Terry
+:notifications:
+- :type: :warning
+  :message:
+  - Bresaola strip steak landjaeger tail.
+  - Short ribs bacon shank swine shankle boudin.
+  :read: true
+- :type: :info
+  :message:
+  - Shank porchetta turkey pancetta.
+  - T-bone doner pancetta biltong chuck.
+  :read: true
+- :type: :warning
+  :message:
+  - Pork belly tenderloin flank pork biltong meatball shankle short ribs.
+  - Filet mignon strip steak frankfurter meatloaf bacon.
+  :read: true
+- :type: :alert
+  :message:
+  - Boudin Kevin doner jowl biltong drumstick leberkas ham hock bresaola.
+  - Beef ribs corned beef jerky fatback t-bone meatloaf pancetta.
+  :read: true
+- :type: :alert
+  :message:
+  - Shoulder beef strip steak bresaola frankfurter.
+  - Jerky chicken doner boudin pork chop turducken hamburger.
+  :read: false
+- :type: :alert
+  :message:
+  - Bacon chicken beef ribs drumstick.
+  - Prosciutto shankle drumstick ham hock.
+  :read: false
+- :type: :warning
+  :message:
+  - Tri-tip cow meatloaf turducken andouille jerky filet mignon.
+  - Filet mignon cow strip steak doner ball tip meatloaf rump.
+  :read: false
+- :type: :warning
+  :message:
+  - Beef ribs capicola filet mignon drumstick sausage porchetta Kevin tenderloin frankfurter.
+  - Chicken sirloin beef ribs meatloaf jowl pork hamburger.
+  :read: false
+- :type: :success
+  :message:
+  - Bacon shank pancetta landjaeger beef ribs pork loin.
+  - Ribeye porchetta pancetta sausage sirloin venison corned beef chicken capicola.
+  :read: true
+- :type: :info
+  :message:
+  - Shankle brisket bresaola turducken swine frankfurter tenderloin.
+  - Andouille chicken shoulder capicola landjaeger meatloaf leberkas swine.
+  :read: true
+:scheduled_events: []
+:friends:
+- :name: Era Lang
+  :email: bart.howe@boyle.info
+  :username: louvenia.hyatt
+  :phone: 899.061.5465 x28706
+  :avatar: "/images/2.jpg"
+  :avatar_thumb: "/images/thumbs/2.jpg"
+- :name: Jacquelyn Herman
+  :email: keshawn_weimann@blockgutmann.com
+  :username: imogene_walker
+  :phone: 701-691-7986
+  :avatar: "/images/1.jpg"
+  :avatar_thumb: "/images/thumbs/1.jpg"
+- :name: Miss David Swift
+  :email: rollin_bashirian@jones.biz
+  :username: maeve
+  :phone: "(195)627-9976 x7433"
+  :avatar: "/images/12.jpg"
+  :avatar_thumb: "/images/thumbs/12.jpg"
+- :name: Joanny Kris
+  :email: bulah@abernathykemmer.name
+  :username: yazmin.gleichner
+  :phone: 016-003-7986 x7463
+  :avatar: "/images/20.jpg"
+  :avatar_thumb: "/images/thumbs/20.jpg"
+- :name: Minnie Marquardt
+  :email: jabari@schinner.us
+  :username: lilyan.wisozk
+  :phone: "(801)903-1393 x749"
+  :avatar: "/images/1.jpg"
+  :avatar_thumb: "/images/thumbs/1.jpg"
+- :name: Marion Cormier
+  :email: kennedi@leffler.ca
+  :username: rigoberto
+  :phone: 181-221-2315 x525
+  :avatar: "/images/1.jpg"
+  :avatar_thumb: "/images/thumbs/1.jpg"
+- :name: Stone Morar
+  :email: jovany@wolff.co.uk
+  :username: delta.kshlerin
+  :phone: 1-837-416-3480 x0897
+  :avatar: "/images/20.jpg"
+  :avatar_thumb: "/images/thumbs/20.jpg"
+- :name: Miss Kobe Wisozk
+  :email: viva_lakin@croninpredovic.name
+  :username: janis_collins
+  :phone: 1-368-725-4357
+  :avatar: "/images/19.jpg"
+  :avatar_thumb: "/images/thumbs/19.jpg"
+- :name: Cortney Goodwin
+  :email: gilda.hudson@schulistkreiger.ca
+  :username: grace
+  :phone: 765-518-1018 x38707
+  :avatar: "/images/0.jpg"
+  :avatar_thumb: "/images/thumbs/0.jpg"
+- :name: Edwin Lehner
+  :email: stephanie@rosenbaum.us
+  :username: laney
+  :phone: "(930)777-6298 x8512"
+  :avatar: "/images/12.jpg"
+  :avatar_thumb: "/images/thumbs/12.jpg"

@@ -10,9 +10,24 @@
       .panel-heading
         h2.panel-title My Pets
       .list-group
-        - for pet in @pets do
+        - for pet in @page_data[:pets] do
           a.list-group-item href="#"
             h4.list-group-item-heading = pet[:name]
             .list-group-item-text #{pet[:age]} years old
+    .panel.panel-default
+      .panel-heading
+        h2.panel-title My Friends
+      .list-group
+        - for friend in @page_data[:friends] do
+          .list-group-item
+            h4.list-group-item-heading = friend[:name]
+            .list-group-item-text
+              img.img-responsive src="#{friend[:avatar]}"
   .col-sm-10
     h1 Content Area
+    pre = @page_data[:session].inspect
+
+
+.row
+  .col-sm-12
+    pre = @page_data.inspect

@@ -40,15 +40,17 @@ nav.navbar.navbar-default role="navigation"
       ul.nav.navbar-nav.navbar-right
         li.dropdown
           a.dropdown-toggle data-toggle="dropdown" href="#"
-            | My Account &nbsp;
+            = @page_data[:session][:current_user][:name]
             span.caret
           ul.dropdown-menu role="menu"
             li
-              a href="#"  Settings
+              a href="#" My Profile
             li
-              a href="#"  Account
+              a href="#" Settings
             li
-              a href="#"  Help / Support
+              a href="#" Account
+            li
+              a href="#" Help / Support
             li.divider
             li
-              a href="#"  Sign Out
+              a href="#" Sign Out

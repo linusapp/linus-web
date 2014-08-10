@@ -2,4 +2,5 @@ source "https://rubygems.org"
 
 gem 'sinatra'
 gem 'slim'
-gem 'faker'
+gem 'rerun'
+gem 'ffaker'
