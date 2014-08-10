@@ -7,14 +7,14 @@ require 'faker'
 set :slim, :pretty => true
 
 get "/" do
-  @pets = [
-    {
-      name: 'Linus',
-      age: '6 weeks'
-    }
-  ]
-  @pet = 'Linus'
-  @foo = :bar
+  @pets = []
+  10.times do |i|
+    @pets.push({
+      name: Faker::Name.first_name,
+      age: Faker::Number.digit
+    })
+  end
+
   slim :index
   # slim :index, :locals => { :pets => @pets }
 end
